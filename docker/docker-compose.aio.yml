@@ -6,7 +6,7 @@ services:
     image: ghcr.io/dispatcharr/dispatcharr:latest
     container_name: dispatcharr
     ports:
-      - 9191:9191
+      - 8080:9191
     volumes:
       - dispatcharr_data:/data
     environment:
